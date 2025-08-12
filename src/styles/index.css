@@ -1,3 +1,4 @@
+
 /* 
 
     You can write your own styles here...
@@ -9,3 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    background-color: rgb(240, 239, 234);
+}
+.tarea .hide{
+    list-style: none;
+    display: none;
+}
+.tarea:hover .hide{
+    display: block;
+}  
